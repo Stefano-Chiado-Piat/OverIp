@@ -23,3 +23,9 @@ git clone https://github.com/Stefano-Chiado-Piat/StefanoCp.OverIp
 ./run.sh
 ```
 Follow the **CLI steps** and you are **done**!
+
+# Q/A
+
+### Q: What can i do when OverIP update? <br />
+A: Don't worry, it **auto updates** via the repository :D
+
