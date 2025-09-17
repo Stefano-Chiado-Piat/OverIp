@@ -82,6 +82,7 @@ def main():
     logo_print()
 
     ip = classes_select()
+    logo_print()
     port = port_request()
     logo_print()
     name = name_request()
