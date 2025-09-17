@@ -52,7 +52,13 @@ def port_request():
     return port
 
 def subprocess_launch(port):
-    
+    ascii_art = """
+▄▖      ▄▖▄▖  ▖ ▘  ▗         
+▌▌▌▌█▌▛▘▐ ▙▌  ▌ ▌▛▘▜▘█▌▛▌█▌▛▘
+▙▌▚▘▙▖▌ ▟▖▌   ▙▖▌▄▌▐▖▙▖▌▌▙▖▌ 
+                             
+    """
+
     proc = subprocess.Popen([
         "xterm",
         "-T", "OverIP Listener",
@@ -60,7 +66,7 @@ def subprocess_launch(port):
         "-fg", "white",
         "-fa", "Monospace",
         "-fs", "10",
-        "-e", "bash", "-c", f"while true; do nc -l -p {port}; done"
+        "-e", "bash", "-c", f"echo '{ascii_art}' && while true; do nc -l -p {port}; done"
     ])
     return proc
 
