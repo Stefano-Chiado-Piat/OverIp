@@ -30,5 +30,5 @@ Follow the **CLI steps** and you are **done**!
 A: Don't worry, it **auto updates** via the repository :D
 
 ### Q: But i don't want to use Git <br/>
-A: Don't owrry, the releases ( .zip program ) will come soon
+A: Don't worry, the releases ( .zip program ) are coming soon
 
