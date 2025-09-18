@@ -1,4 +1,4 @@
-# **OverIP**
+![OverIp](https://i.postimg.cc/L5j1wF9f/ascii-art-text-1.png)
 
 This repository contains a simple CLI application that creates a **Tcp/Udp** Connection with two **Ubuntu Computer**, making them able to communicate **via texts**. <br />
 
