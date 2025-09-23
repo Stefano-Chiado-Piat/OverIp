@@ -45,7 +45,7 @@ def classes_select():
 
     for cls in data["classes"]:
         if(cls["Name"] == sel_cls):
-            return f"{cls["Ip"]}{number}"
+            return f"{cls['Ip']}{number}"
 
 def port_request():
     port = input("Insert the requested Port: ")
